@@ -52,4 +52,12 @@ public class Artist {
     public void setDebutYear(int debutYear) {
         this.debutYear = debutYear;
     }
+
+    public List<Album> getAlbums() {
+        return albums;
+    }
+
+    public void setAlbums(List<Album> albums) {
+        this.albums = albums;
+    }
 }

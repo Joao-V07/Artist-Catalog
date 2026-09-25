@@ -41,4 +41,13 @@ public class Music {
     public void setName(String name) {
         this.name = name;
     }
+
+    public Album getAlbum() {
+        return album;
+    }
+
+    public void setAlbum(Album album) {
+        this.album = album;
+    }
+
 }
