@@ -1,17 +1,14 @@
 package com.artistCatalog.artist_catalog.Services;
-
 import com.artistCatalog.artist_catalog.Models.Music;
 import com.artistCatalog.artist_catalog.Repositories.MusicRepository;
-import org.springframework.stereotype.Repository;
 import org.springframework.stereotype.Service;
-
 import java.util.List;
 
 @Service
 public class MusicService {
     private final MusicRepository repository;
 
-    public MusicService(MusicRepository repository) {
+    private MusicService(MusicRepository repository) {
         this.repository = repository;
     }
 
@@ -32,6 +29,5 @@ public class MusicService {
 
         music.setName(musicDetails.getName());
         music.setReleaseYear(musicDetails.getReleaseYear());
-        music.setAlbum(musicDetails.getAlbum());
     }
 }
