@@ -30,5 +30,7 @@ public class AlbumService {
         album.setName(albumDetails.getName());
         album.setGenre(albumDetails.getGenre());
         album.setReleaseYear(albumDetails.getReleaseYear());
+        album.setArtist(albumDetails.getArtist());
+        album.setMusics(albumDetails.getMusics());
     }
 }

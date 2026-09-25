@@ -29,5 +29,6 @@ public class MusicService {
 
         music.setName(musicDetails.getName());
         music.setReleaseYear(musicDetails.getReleaseYear());
+        music.setAlbum(musicDetails.getAlbum());
     }
 }

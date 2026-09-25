@@ -30,5 +30,6 @@ public class ArtistService {
         artist.setName(artistDetails.getName());
         artist.setDebutYear(artistDetails.getDebutYear());
         artist.setGenre(artistDetails.getGenre());
+        artist.setAlbums(artistDetails.getAlbums());
     }
 }
